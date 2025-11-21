@@ -1,0 +1,156 @@
+/* ====== ESTILO GENERAL ====== */
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #eef2f6, #dbe4ec);
+    color: #333;
+    text-align: center;
+}
+
+/* ====== TÍTULOS ====== */
+h1 {
+    font-size: 2.8rem;
+    color: #0047b3;
+    margin-top: 40px;
+    text-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+h2 {
+    font-size: 2rem;
+    color: #005bea;
+    margin-top: 35px;
+}
+
+/* ====== PÁRRAFOS ====== */
+p {
+    font-size: 1.2rem;
+    width: 70%;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* ====== IMAGEN ====== */
+img {
+    margin-top: 20px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* ====== LISTA ====== */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+ul li {
+    background: white;
+    padding: 12px;
+    width: 40%;
+    margin: 10px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    font-size: 1.1rem;
+}
+
+/* ====== BOTÓN MODERNO ====== */
+button {
+    background: #0066ff;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0047b3;
+    transform: scale(1.05);
+}
+
+/* ====== VIDEO ====== */
+video, audio {
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* ====== FORMULARIO ====== */
+form {
+    margin-top: 40px;
+    background: white;
+    width: 70%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+    width: 80%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 2px solid #cbd5e0;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background: #005bea;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background: #0041a8;
+}
+
+/* ====== TABLA ====== */
+table {
+    margin: 30px auto;
+    width: 70%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+th {
+    background: #0047b3;
+    color: white;
+    padding: 14px;
+    font-size: 1.1rem;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 1rem;
+}
+
+/* ====== INFORMACIÓN EXTRA ====== */
+#extra-info {
+    margin-top: 50px;
+    padding: 30px;
+    background: #fff;
+    width: 75%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+/* ====== FOOTER ====== */
+footer {
+    background: #00306b;
+    color: white;
+    padding: 18px;
+    margin-top: 50px;
+    font-size: 1rem;
+}
